@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyMate AI - Agentic Personalized Learning Assistant</title>
+    <meta name="description" content="Agentic AI-based personalized learning assistant featuring dynamic tool routing, RAG with TF-IDF and cosine similarity, interactive quizzes, study plan generation, answer evaluation, and web grounding." />
+    <meta property="og:title" content="StudyMate AI - Agentic Personalized Learning Assistant" />
+    <meta property="og:description" content="Agentic AI-based personalized learning assistant featuring dynamic tool routing, RAG with TF-IDF and cosine similarity, interactive quizzes, study plan generation, answer evaluation, and web grounding." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Suppress benign Vite dev WebSocket HMR notices in proxy iframe
+      window.addEventListener('unhandledrejection', function (event) {
+        if (event.reason && (
+          String(event.reason).includes('WebSocket') ||
+          String(event.reason?.message).includes('WebSocket')
+        )) {
+          event.preventDefault();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "StudyMate AI - Agentic Personalized Learning Assistant",
+  "description": "Agentic AI-based personalized learning assistant featuring dynamic tool routing, RAG with TF-IDF and cosine similarity, interactive quizzes, study plan generation, answer evaluation, and web grounding.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
